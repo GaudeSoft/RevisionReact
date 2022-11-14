@@ -1,0 +1,302 @@
+/******************************************* PARTIE HEADER********************************************/
+.DivPrincipal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.DivHeader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #37517e;
+    border: none;
+}
+.DivMenu{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 30%;
+    border: 1px red solid;
+    margin-left: 8%;
+}
+.DivNom h2{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.DivOngletMenu{
+    background-color: greenyellow;
+}
+.ElementMenu{
+    color: white;
+}
+.DivCorpsHeader{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+   
+    margin-left: 8%;
+}
+.DivTexte{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 5%;
+}
+.DivTitre{
+    width: 90%;
+  
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    
+    font-family: "Jost", sans-serif;
+}
+.DivTitre h1{
+    font-weight: 800;
+}
+.DivSousTitre{
+    width: 90%;
+    margin-top: -5%;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+}
+.DivSousTitre h3{
+    font-weight: 550;
+    opacity: 0.8;
+}
+.DivBouton{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    width: 100%;  
+}
+
+#BtnStart{
+    background: #47b2e4;
+    width: 200%;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    /* font-weight: bold; */
+    height: 40px;
+   
+}
+#BtnWatch{
+    background: transparent;
+    width: 50%;
+    border: none;
+    
+    color: white;
+    font-weight: bold;
+    height: 40px;
+   
+    margin-left: -7%;
+   
+}
+.IconeButton{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+   
+    margin-left: 90px;
+}
+.Icone{
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+}
+.DivImage {
+    
+    width: 50%;
+}
+.DivImage img{
+    margin-top: -2%;
+    width: 90%;
+    height: 105%;
+}
+/******************************************* PARTIE PARTENAIRE********************************************/
+.DivPartenaire{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-color:#f3f5fa ;  
+}
+.DivPartenaire img{
+    display: flex;
+    width: 80px;
+    height: 28px;
+    justify-content: center;
+    margin-left: 8%;
+    margin-top: 2%;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    
+}
+.DivPartenaire img:hover  {
+    -webkit-transform: scale(1.1);
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%); 
+ }
+/******************************************* PARTIE ABOUT********************************************/
+.DivAbout{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 90%;
+    margin-left: 2%;
+}
+.BlocDivTitre{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    margin-left: 43%;
+    
+}
+.DivTitre{
+    color: #37517e;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.DivTitre h1{
+    font-weight: 800;
+}
+.PremierSousAbout{
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 8%;
+    flex-direction: row; 
+}
+.TextePartie1{
+    width: 50%;
+    text-align: left;
+    margin-top: -8%;
+   
+}
+.Liste{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.IconeListe{
+    margin-top: 1%;
+    margin-right: 2%;
+    color: #47b2e4;
+}
+.TextePartie2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    margin-top: -8%;
+  
+
+}
+.LeBoutton{
+    margin-top: 3%;
+}
+.LeBoutton button{
+    width: 120px;
+    height: 30px;
+    background: none;
+    color: #47b2e4;
+    border:  2px#47b2e4 solid;
+}
+.LeBoutton button:hover{
+    width: 120px;
+    height: 30px;
+    background: #47b2e4;
+    color: white;
+    border-radius: 3px;
+    border:  2px#47b2e4 solid;
+}
+
+
+/******************************************* PARTIE Dropdown********************************************/
+.DivDropdown{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color:#f3f5fada ;   
+}
+.DivPartieTexte{
+    width: 50%;
+    text-align: left;
+    display: flex;
+    margin-top: 1%;
+    
+    flex-direction: column;
+}
+.GrandTitre{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    color: #0c3c53;
+    font-weight: 100;
+    margin-left: 10%;
+}
+.GrandTitre h1{
+    
+    color: #0c3c53;
+    font-weight: 100;
+}
+ .GrandTitreFort{
+    color: #0c3c53;
+    font-weight: bold;
+    /* opacity: 0.4; */
+}
+.DivPartieImage{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.DivPartieImage img{
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 15%;
+    height: 60%;
+}
+.SousTitre{
+    color: #0c3c53;
+    margin-left: 10%;
+    margin-top:-10px;
+    opacity: 0.8;
+}
+.ContenuDropdown{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    height: 12%;
+    margin-top: 2%;
+    background-color: white;
+}
+.NumeroDropdown h1{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: #47b2e4;
+}
+.TitreDropdown h1{
+    margin-top: 12px;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #0c3c53;
+}
+.DropdownIcone{
+    margin-top: 14px;
+    margin-left: 20%;
+}
