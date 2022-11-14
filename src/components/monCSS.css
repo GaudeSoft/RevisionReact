@@ -1,0 +1,70 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+  color: #47b2e4;
+   color: #73c5eb;
+  }
+  
+  /* Pour les balises h1 , 2 etc.... {
+  font-family: "Jost", sans-serif;
+  } */
+  
+  p{
+  font-family: "Poppins", sans-serif;
+   font-family: "Poppins", sans-serif;
+   
+  
+     color: #fff;
+    color: #37517e;
+    color: #999;
+   color: #28a745;
+   color: #ccc;
+   color: #6182ba;
+  color: red;
+   color: #4668a2;
+    color: #444444;
+    color: #5e5e5e;
+    color: #47b2e4;
+    color: #777777;
+    color: #47b2e4;
+  color: #0c3c53;
+  color: #848484;
+    color: #343a40;
+    color: #444444;
+  
+  
+  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  
+  
+  background: #cbd6e9;
+   background: #eff2f8;
+   background: #23a3df;
+    background: #e7f5fb;
+    background: #333;
+   background: #ed3c0d;
+    background: #18d26e;
+    background: #f3f5fa;
+   background: #31a9e1;
+  background: #37517e;
+    background: #47b2e4;
+  background: #6bc1e9;
+  background: #209dd8;
+    background-color: #f3f5fa;
+    background: #f3f5fa;
+   background: #ddd;
+    background: #209dd8;
+   background: rgba(55, 81, 126, 0.8);
+   background: rgba(40, 58, 90, 0.9);
+  
+  
+   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08);
+   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  
+    
+    border-bottom: 1px solid #eee;
+}
